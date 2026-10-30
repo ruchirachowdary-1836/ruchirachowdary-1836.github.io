@@ -121,6 +121,7 @@ p { margin: 0 0 14px; max-width: 65ch; }
 
 /* projects */
 .projects { display: grid; gap: 18px; }
+.projects > *, .minis > * { min-width: 0; }
 .proj {
   background: var(--surface); border: 1px solid var(--line); padding: 26px 28px; position: relative;
   transition: border-color .2s ease, transform .2s ease;
